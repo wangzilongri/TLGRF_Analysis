@@ -318,7 +318,7 @@ linestyles_lm = list(reversed(linestyles_lm))
 plot_columns =  ["r_TLGRF"] + ["beta_wsize={}".format(window_size) for window_size in [2,7,14]]
 plot_columns = reversed(plot_columns)
 
-plot_row_names = ["TLGRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
+plot_row_names = ["TLRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
 plot_row_names = list(reversed(plot_row_names))
 
 #plot_columns =  ["r_TLGRF"] + ["beta_wsize={}".format(window_size) for window_size in [2]]
@@ -399,7 +399,7 @@ ax3 = fig.add_subplot(2, 2, 4)
 plot_columns =  ["r_TLGRF"] + ["beta_wsize={}".format(window_size) for window_size in [2,7,14]]
 plot_columns = reversed(plot_columns)
 
-plot_row_names = ["TLGRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
+plot_row_names = ["TLRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
 plot_row_names = list(reversed(plot_row_names))
 
 colors_lm = ["red", "blue", "xkcd:dark turquoise", "magenta"]
@@ -412,7 +412,7 @@ linestyles_lm = list(reversed(linestyles_lm))
 plot_columns =  ["r_TLGRF"] + ["beta_wsize={}".format(window_size) for window_size in [2,7,14]]
 plot_columns = reversed(plot_columns)
 
-plot_row_names = ["TLGRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
+plot_row_names = ["TLRF"] + ["Fixed Window {}".format(window_size) for window_size in [2,7,14]]
 plot_row_names = list(reversed(plot_row_names))
 
 
